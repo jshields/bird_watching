@@ -1,0 +1,19 @@
+---
+- !ruby/object:Bird
+  name: Bob
+  species: penguin
+  description: tuxedo
+  habitat: on ice
+  can_fly: false
+- !ruby/object:Bird
+  name: George
+  species: eagle
+  description: American
+  habitat: in a pine tree
+  can_fly: true
+- !ruby/object:Bird
+  name: Jill
+  species: flamingo
+  description: pink and tall
+  habitat: by a lagoon
+  can_fly: true

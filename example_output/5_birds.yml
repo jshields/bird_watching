@@ -1,0 +1,31 @@
+---
+- !ruby/object:Bird
+  name: Shim
+  species: HTML5
+  description: green
+  habitat: on a computer
+  can_fly: true
+- !ruby/object:Bird
+  name: Bob
+  species: penguin
+  description: tuxedo
+  habitat: on ice
+  can_fly: false
+- !ruby/object:Bird
+  name: George
+  species: eagle
+  description: American
+  habitat: in a pine tree
+  can_fly: true
+- !ruby/object:Bird
+  name: Jill
+  species: flamingo
+  description: pink and tall
+  habitat: by a lagoon
+  can_fly: true
+- !ruby/object:Bird
+  name: Fred
+  species: crane
+  description: long neck with long bill
+  habitat: pond
+  can_fly: true
