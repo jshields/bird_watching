@@ -34,7 +34,7 @@ def make_or_watch
 		# if we don't already have an entry on whether this bird can fly,
 		# we need to ask the user if the bird can fly and add it to the map
 		if Bird.flight_birds.key?(temp_species)
-			print "It looks like this species can fly!\n"
+			print "It looks like we already have data on whether or not this species can fly.\n"
 		else
 			print "One more thing... Can this bird fly? Y/N:\n"
 			response = gets.chomp.downcase
